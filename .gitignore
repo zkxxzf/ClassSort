@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.eggs/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec.bak
+*.pkg
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.un~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# 数据文件（隐私保护，不上传示例数据）
+*.xls
+*.xlsx
+*.csv
+
+# 输出文件
+*_分班结果*
+*_换班日志*
+*_完整日志*
+班级统计*
+
+# Office 临时文件
+~$*
+
+# Logs
+*.log
+logs/
+
+# Test/coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Compiled
+*.pyc
+*.pyd
+*.dll
